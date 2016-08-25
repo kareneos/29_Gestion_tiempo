@@ -1,5 +1,31 @@
+/*GENERAL*/
+.rosa{
+    background-color: #efc7c2;
+}
+button{
+    width: 100%;
+}
 /*HEADER*/
 header span{
     font-size: .2em;
     border: solid black;
+}
+/*BODY*/
+body{
+    background-color: #650d1b;
+}
+section span{
+    font-size: 20em;
+}
+p{
+    text-align: justify;
+}
+.icons *{
+    opacity: 0;
+}
+.icons *:hover{
+    opacity: .2;
+}
+#icon1{
+    background-image: url(../img/icono1.png);
 }
