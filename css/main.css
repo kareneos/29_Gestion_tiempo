@@ -12,7 +12,8 @@ header span{
 }
 /*BODY*/
 body{
-    background-color: #650d1b;
+    background-image: url("../img/back.jpg");
+    background-repeat: repeat;
 }
 section span{
     font-size: 20em;
@@ -20,12 +21,24 @@ section span{
 p{
     text-align: justify;
 }
+.icons p{
+    height: 10em;
+}
 .icons *{
     opacity: 0;
 }
 .icons *:hover{
-    opacity: .2;
+    opacity: .9;
 }
 #icon1{
-    background-image: url(../img/icono1.png);
+    background-image: url("../img/1.png");
+}
+#icon2{
+    background-image: url("../img/2.png");
+}
+#icon3{
+    background-image: url("../img/3.png");
+}
+#icon4{
+    background-image: url("../img/4.png")
 }
