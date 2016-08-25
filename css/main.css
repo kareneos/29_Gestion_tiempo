@@ -5,6 +5,16 @@
 button{
     width: 100%;
 }
+/*EFECTOS*/
+#definicion button:hover{
+    -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+#etapas button:hover{
+    -webkit-transform: skew(-10deg);
+  transform: skew(-10deg);
+}
+}
 /*HEADER*/
 header span{
     font-size: .2em;
@@ -22,13 +32,16 @@ p{
     text-align: justify;
 }
 .icons p{
-    height: 10em;
+    height: 15em;
 }
 .icons *{
     opacity: 0;
 }
 .icons *:hover{
     opacity: .9;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 #icon1{
     background-image: url("../img/1.png");
