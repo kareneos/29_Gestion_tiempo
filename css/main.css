@@ -1,0 +1,65 @@
+/*GENERAL*/
+.rosa{
+    background-color: #efc7c2;
+}
+button{
+    width: 100%;
+}
+/*EFECTOS*/
+#definicion button:hover{
+    -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+#etapas button:hover{
+    -webkit-transform: skew(-10deg);
+  transform: skew(-10deg);
+}
+.icons *:hover{
+    opacity: .9;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/*BACKGROUNDS*/
+body{
+    background-image: url("../img/back.jpg");
+    background-size: cover;
+}
+#icon1{
+    background-image: url("../img/1.png");
+}
+#icon2{
+    background-image: url("../img/2.png");
+}
+#icon3{
+    background-image: url("../img/3.png");
+}
+#icon4{
+    background-image: url("../img/4.png");
+}
+#imagen1{
+    background-image: url("../img/4312192320_34cbb7d72b_o.jpg");
+}
+/*HEADER*/
+header span{
+    font-size: .2em;
+    border: solid black;
+}
+/*BODY*/
+section span{
+    font-size: 20em;
+}
+p{
+    text-align: justify;
+}
+.icons *{
+    opacity: 0;
+    height: 15em;
+}
+#herramientas h2{
+    padding-top: 50%;
+    color: #006DF0;
+}
+.imagen{
+    opacity: .8;
+}
